@@ -49,7 +49,7 @@ ZK_HOME=/opt/module/zookeeper-3.4.10
 ## 三.kafka群起
 #### 配置kafka.conf
 
-添加kafka安装配置
+添加kafka安装目录配置
 ```bash
 KAFKA_HOME=/opt/module/kafka
 ```
