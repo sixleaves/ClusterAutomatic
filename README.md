@@ -1,7 +1,7 @@
 # ClusterAutomatic
 This project provides pyhon and bash scripts to automate clusters
 
-该项目提供python和bash脚本,用于自动化集群启动和配置。
+该项目分别提供python和bash脚本两种方式,用于自动化集群启动和配置。
 
 - [x] xcall脚本,集群间同步执行命令
 - [x] zookeeper集群启动和关闭功能
