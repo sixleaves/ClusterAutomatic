@@ -11,9 +11,9 @@ This project provides pyhon and bash scripts to automate clusters
 
 假设你有**hadoop101~hadoop103**的集群,并且集群上JDK安装于`/opt/module/jdk1.8.0_144`.则配置如下
 > START_HOST=101
-END_HOST=103
-CLUSTER_PREFIX_HOSTNAME=hadoop
-JAVA_HOME=/opt/module/jdk1.8.0_144
+> END_HOST=103
+> CLUSTER_PREFIX_HOSTNAME=hadoop
+> JAVA_HOME=/opt/module/jdk1.8.0_144
 
 #### Example1: 使用xcall 列出集群中所有的java进程
 `xcall.sh jps`
