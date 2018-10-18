@@ -7,9 +7,9 @@ This project provides pyhon and bash scripts to automate clusters
 - [x] zookeeper集群启动和关闭功能
 - [x] kafka集群启动和关闭功能
 
-[] zookeeper自动化配置
-[] kafa自动化配置
-[] hadoop自动化配置
+- [y] zookeeper自动化配置
+- [y] kafa自动化配置
+- [y] hadoop自动化配置
 
 # 使用方式
 
