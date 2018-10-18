@@ -1,12 +1,12 @@
 # ClusterAutomatic
 This project provides pyhon and bash scripts to automate clusters
 
-## 使用方式
+# 使用方式
 
 ### 前提
 将以下文件都添加到PATH环境变量中.
 
-### xcall
+## 一.xcall
 #### 配置xcall.conf 配置文件
 
 假设你有**hadoop101~hadoop103**的集群,并且集群上JDK安装于`/opt/module/jdk1.8.0_144`.则配置如下
@@ -21,7 +21,7 @@ JAVA_HOME=/opt/module/jdk1.8.0_144
 #### Example2: 使用xcall 列出集群中所有/路径下的路径
 `xcall.sh ls /`
 
-### zookeeper群起
+## 二.zookeeper群起
 #### 配置zks.conf
 
 添加zookeeper安装位置
@@ -35,7 +35,7 @@ ZK_HOME=/opt/module/zookeeper-3.4.10
 #### Example4: 关闭zookeeper集群
 `stop-zks.sh`
 
-### kafka群起
+## 三.kafka群起
 #### 配置kafka.conf
 
 添加kafka安装配置
