@@ -13,7 +13,8 @@ This project provides pyhon and bash scripts to automate clusters
 # 使用方式
 
 ### 前提
-将以下文件都添加到PATH环境变量中.
+- 将以下文件都添加到PATH环境变量中.
+- 集群之前配置了免登入ssh
 
 ## 一.xcall
 #### 配置xcall.conf 配置文件
