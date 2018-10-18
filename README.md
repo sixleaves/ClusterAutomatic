@@ -35,7 +35,7 @@ JAVA_HOME=/opt/module/jdk1.8.0_144
 ## 二.zookeeper群起
 #### 配置zks.conf
 
-添加zookeeper安装位置
+添加zookeeper安装目录
 ```bash
 # configure zookeeper home in here
 ZK_HOME=/opt/module/zookeeper-3.4.10
@@ -49,7 +49,7 @@ ZK_HOME=/opt/module/zookeeper-3.4.10
 ## 三.kafka群起
 #### 配置kafka.conf
 
-添加kafka安装目录配置
+添加kafka安装目录
 ```bash
 KAFKA_HOME=/opt/module/kafka
 ```
