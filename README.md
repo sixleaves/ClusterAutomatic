@@ -34,7 +34,23 @@ JAVA_HOME=/opt/module/jdk1.8.0_144
 #### Example2: 使用xcall 列出集群中所有/路径下的路径
 `xcall.sh ls /`
 
-## 二.zookeeper群起
+## ② Hadoop群起
+#### 配置hadoop.conf
+```bash
+# NameNode 所在机器,在hadoop102
+NAMENODE_HOST=102
+
+# ResourceManager所在机器,在hadoop101
+RESOURCE_HOST=101
+
+# HistoryServer所在机器,在hadoop103
+HISTORY_SERVER=103
+
+# Hadoop Home即Hadoop安装根目录
+HADOOP_HOME=/opt/module/hadoop-2.7.2
+```
+
+## 三.zookeeper群起
 #### 配置zks.conf
 
 添加zookeeper安装目录
@@ -48,7 +64,7 @@ ZK_HOME=/opt/module/zookeeper-3.4.10
 #### Example4: 关闭zookeeper集群
 `stop-zks.sh`
 
-## 三.kafka群起
+## 四.kafka群起
 #### 配置kafka.conf
 
 添加kafka安装目录
