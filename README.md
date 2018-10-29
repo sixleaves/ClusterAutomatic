@@ -6,9 +6,10 @@ This project provides pyhon and bash scripts to automate clusters
 - [x] xcall脚本,集群间同步执行命令
 - [x] zookeeper集群启动和关闭功能
 - [x] kafka集群启动和关闭功能
+- [x] hadoop集群启动和关闭功能
 - [ ] zookeeper自动化配置
 - [ ] kafka自动化配置
-- [ ] hadoop自动化配置
+- [] hadoop自动化配置
 
 # 使用方式
 
