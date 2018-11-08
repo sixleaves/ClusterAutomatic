@@ -7,6 +7,7 @@ This project provides pyhon and bash scripts to automate clusters
 - [x] zookeeper集群启动和关闭功能
 - [x] kafka集群启动和关闭功能
 - [x] hadoop集群启动和关闭功能
+- [x] 支持动态切换用户名
 - [ ] zookeeper自动化配置
 - [ ] kafka自动化配置
 - [ ] hadoop自动化配置
@@ -20,12 +21,13 @@ This project provides pyhon and bash scripts to automate clusters
 ## 一.xcall
 #### 配置xcall.conf 配置文件
 
-假设你有**hadoop101~hadoop103**的集群,并且集群上JDK安装于`/opt/module/jdk1.8.0_144`.则配置如下
+假设你有**hadoop101~hadoop103**的集群,用户名都为sweetcs,并且集群上JDK安装于`/opt/module/jdk1.8.0_144`.则配置如下
 ```bash
 START_HOST=101
 END_HOST=103
 CLUSTER_PREFIX_HOSTNAME=hadoop
 JAVA_HOME=/opt/module/jdk1.8.0_144
+USER_NAME=sweetcs
 ```
 
 #### Example1: 使用xcall 列出集群中所有的java进程
